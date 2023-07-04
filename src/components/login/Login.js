@@ -1,8 +1,12 @@
 import React from "react";
 import google from "../../assets/images/google.svg";
 import apple from "../../assets/images/apple.svg";
+import { signInWithGoogle } from "../../Firebase";
+
 
 function Login() {
+
+
   return (
     <div className="login">
       <div className="login-left">
@@ -13,7 +17,7 @@ function Login() {
           <h2>Sign In</h2>
           <p>Sign in to your account</p>
           <div className="lrm-top">
-            <div className="lrm-top-item">
+            <div className="lrm-top-item" onClick={signInWithGoogle}>
               <img src={google} />
               <p>Sign in with Google</p>
             </div>
