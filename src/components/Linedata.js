@@ -46,7 +46,7 @@ function Linedata() {
   return (
     <>
     <h1 className="text-heading" style={{ margin: '50px 10px' }}>
-Line Chart Using Rechart</h1>
+Activities</h1>
       <ResponsiveContainer width="100%" height={"20%"} aspect={3}>
         <LineChart data={pdata} margin={{ right: 50 }}>
           <CartesianGrid />
