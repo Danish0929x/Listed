@@ -29,12 +29,12 @@ function Login() {
             </div>
             <div className="form-group">
               <label>Password</label>
-              <input type="text" />
+              <input type="password" />
             </div>
-            <a>Forgot password?</a>
+            <a>Forgot password?</a> <br />
             <button>Sign In</button>
           </div>
-          <p>Don't have an account? <a>Register here</a></p>
+          <p className="bottom">Don't have an account? <a>Register here</a></p>
         </div>
       </div>
     </div>
